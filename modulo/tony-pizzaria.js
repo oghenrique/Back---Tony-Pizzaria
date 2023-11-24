@@ -190,15 +190,53 @@ var produtos = {
                 [
 
                     {
-                        usuario: usuarios.usuario[0],
-                        texto: 'Deliciosa!',
-                        data: '12/09/2022'
+                        usuario: usuarios.usuario[2],
+                        texto: 'A MELHOR PIZZA QUE COMI NA VIDA',
+                        data: '17/10/2022'
                     },
 
                     {
-                        usuario: usuarios.usuario[1],
-                        texto: 'Pizza muito boa!',
-                        data: '15/03/2022'
+                        usuario: usuarios.usuario[3],
+                        texto: 'Tava muito boa, mas não tanto!',
+                        data: '07/02/2022'
+                    }
+
+                ]
+        },
+
+        {
+            id: '3',
+            nome_produto: 'Coca-Cola',
+            valor: 'R$14,99',
+            descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            categoria: categorias.categoria[2],
+            avaliacao: 5,
+            comentario:
+                [
+
+                    {
+                        usuario: usuarios.usuario[2],
+                        texto: 'Coca geladinha, hmmmm',
+                        data: '17/10/2022'
+                    }
+
+                ]
+        },
+
+        {
+            id: '4',
+            nome_produto: 'Pudim de Leite',
+            valor: 'R$12,89',
+            descricao: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            categoria: categorias.categoria[3],
+            avaliacao: 5,
+            comentario:
+                [
+
+                    {
+                        usuario: usuarios.usuario[2],
+                        texto: 'Muito cremoso!',
+                        data: '25/04/2022'
                     }
 
                 ]
