@@ -245,3 +245,9 @@ var produtos = {
     ]
 
 }
+
+module.exports = {
+    usuarios,
+    categorias,
+    produtos
+}
