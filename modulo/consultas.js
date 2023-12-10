@@ -91,7 +91,7 @@ const getComentariosPorProduto = (produtoId) => {
     let produtoEncontrado = null
 
     produtos.forEach((produto) => {
-        if (produto.id === produtoId) {
+        if (produto.id == produtoId) {
             produtoEncontrado = produto
         }
     })
@@ -166,11 +166,12 @@ const getEnderecoCliente = (clienteId) => {
     let clienteEncontrado = null
 
     clientesInfo.forEach((cliente) => {
-        if (cliente.id === clienteId) {
+        if (cliente.id == clienteId) {
             clienteEncontrado = cliente
 
             cliente.endereco.forEach((endereco) => {
                 let enderecoClienteJSON = {
+                    cliente: cliente.nome,
                     cep: endereco.cep,
                     rua: endereco.rua,
                     complemento: endereco.complemento,
@@ -213,7 +214,6 @@ module.exports = {
 /*
 console.log(getComentariosPorProduto(2))
 */
-
 
 //Ver os produtos pela categoria fornecida
 
